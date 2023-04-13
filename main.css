@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6495ED;
+    
+}
+
+header{
+    margin-bottom: 56px;
+}
+header h1{
+    font-style: italic;
+    margin: 16px 0;
+    color: #fff;
+    
+}
+
+header nav li{
+    display: inline;
+    justify-content: space-between;
+    font-size: 16px;
+    padding: 16px;
+    font-weight: bold;
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.colunas {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .imagem {
+    flex: 1;
+  }
+  
+  .imagem img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .texto {
+    flex: 1;
+    padding: 0 20px;
+    
+  }
+
+  .texto h2{
+    font-style: italic;
+    height: 32px;
+    color: #6495ED;
+  }
+  
+  .decorative-line {
+    border-top: 2px solid #6495ED;
+    border-bottom: 16px ;
+    margin: 16px 0;
+} 
+
+.articles img {
+    max-width: 100%;
+    height: auto;
+    
+  
+  
+}
+
+.conteudo{
+    margin-bottom: 56px;
+    
+
+}
+
+.produtos {
+	padding: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 24%);
+    column-gap: 1%;
+    row-gap: 5%;
+
+    
+}
+
+
+
+.produto img {
+	max-width: 100%;
+	
+}
+
+
+
+.produto p {
+	margin: 10px 0;
+    max-width: 100%;
+    font-size: 15px;
+}
+
+.produto h2{
+    font-style: italic;
+    margin: 16px 0;
+}
+
+.produto button {
+	display: block;
+	margin: 10px auto 0;
+	padding: 10px;
+	background-color:#6495ED;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.product h2{
+    color: #6495ED;
+    margin-top: 56px;
+    font-style: italic;
+}   
+
+.produto h3{
+	max-width:100%;
+	font-size: 25px;
+
+	}
+
+    @media only screen and (max-width: 767px) {
+        .conteudo {
+            display: block;
+        }
+    
+        .container {
+            max-width: 100%;
+        }
+
+        .colunas {
+            display: block;
+        }
+
+        .produtos {
+            display: block;
+        }
+        header div.container {
+            flex-direction: column;
+        }
+    
+      }    
+
+      @media screen and (min-width: 768px) and (max-width: 1023px) { 
+        .container{
+            max-width: 100%;
+        }
+        .produtos {
+            grid-template-columns: repeat(2, 49%);
+        }
+
+}
+
+      
