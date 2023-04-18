@@ -12,22 +12,19 @@
     
 }
 
-header .container {
+header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #6495ED;
-    
+    margin-bottom: 56px;
+        
 }
 
-header{
-    margin-bottom: 56px;
-}
 header h1{
     font-style: italic;
-    margin: 16px 0;
     color: #fff;
-    
+    margin: 16px 0;   
     
 }
 
@@ -44,9 +41,6 @@ header nav li a {
     text-decoration: none;
     font-weight: bold;
 }
-
-
-
 .colunas {
     display: flex;
     flex-direction: row;
@@ -71,20 +65,28 @@ header nav li a {
     font-style: italic;
     height: 32px;
     color: #6495ED;
+    font-weight: bold;
+
   }
   
   .decorative-line {
     border-top: 2px solid #6495ED;
     border-bottom: 16px ;
     margin: 16px 0;
-} 
+}
+
+section h2{
+    margin-top: 16px;
+    font-style: italic;
+    height: 32px;
+    color: #6495ED;
+    font-weight: bold;
+
+}
 
 .articles img {
     max-width: 100%;
     height: auto;
-    
-  
-  
 }
 
 .conteudo{
@@ -154,23 +156,27 @@ header nav li a {
         }
     
         .container {
-            max-width: 100%;
+            max-width: 90%;
         }
 
         .colunas {
             display: block;
         }
 
+        .texto{
+            margin-bottom: 16px;
+        }
+
         .produtos {
             display: block;
-            margin-bottom: 16px;
+            margin-bottom: 32px;
         }
 
         .produtos button{
             margin-bottom: 32px;
 
         }
-        header div.container {
+        header {
             flex-direction: column;
         }
     
@@ -191,8 +197,8 @@ header nav li a {
 
         footer {
             margin-top: 32px;
+            margin-left: 240px;
         }
 
 }
 
-      
