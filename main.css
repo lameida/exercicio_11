@@ -14,17 +14,19 @@
 
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
     align-items: center;
     background-color: #6495ED;
     margin-bottom: 56px;
+    
         
 }
 
 header h1{
     font-style: italic;
     color: #fff;
-    margin: 16px 0;   
+    margin: 16px 0;
+      
     
 }
 
